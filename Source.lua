@@ -1299,7 +1299,7 @@ function ArrayFieldLibrary:CreateWindow(Settings)
 		if not Passthrough then
 			local AttemptsRemaining = math.random(2,6)
 			ArrayField.Enabled = false
-			local KeyUI = game.StarterGui.Key
+			local KeyUI = game:GetObjects("rbxassetid://11695805160")[1]
 			KeyUI.Enabled = true
 			pcall(function()
 				_G.KeyUI:Destroy()
