@@ -184,7 +184,7 @@ local BarType = 'Side'
 local HoverTime = 0.3
 local Notifications = ArrayField.Notifications
 
-local SelectedTheme = ArrayField.Theme.Default
+local SelectedTheme = ArrayFieldLibrary.Theme.Default
 
 function ChangeTheme(ThemeName)
 	SelectedTheme = ArrayField.Theme[ThemeName]
